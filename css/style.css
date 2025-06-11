@@ -47,15 +47,9 @@ nav.navbar {
 
 }
 
-nav.navbar::after {
-  content: "";
-  position: absolute;
-  bottom: -1.5rem;
-  left: 0;
-  height: 0.0625rem;
-  width: calc(100% - 2.5rem);
-  /* Adjust the value as needed */
-  background-color: rgba(255, 255, 255, 0.2);
+nav.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 1.5rem; 
 }
 
 .navbar-nav .nav-link {
