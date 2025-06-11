@@ -2017,12 +2017,9 @@ padding-right: 4rem !important;
     height: 100%;
     min-height: 0;
     max-height: none;
-     z-index: 4;
+    z-index: 4;
   }
-.welcome {
-  border-radius: 2rem;
-  overflow: hidden;
-}
+
 }
 /* Equal spacing between all image cards in the gallery on large screens */
 
