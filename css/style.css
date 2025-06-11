@@ -128,7 +128,7 @@ nav ul li a:hover {
   background-position: center center;
   background-size: cover;
   color: white;
-  background-image: url(media/section-2-bg.jpg);
+  background-image: url(../media/section-2-bg.jpg);
 
   display: flex;
   justify-content: center;
@@ -245,7 +245,7 @@ section.news-welcome {
 }
 
 .news-welcome {
-  background: url('media/bg 2.jpg') no-repeat center center/cover;
+  background: url('../media/bg 2.jpg') no-repeat center center/cover;
 
 
 
@@ -329,7 +329,7 @@ font-weight: bold;
 }
 
 footer {
-  background-image: url(media/top-bar-pattern.jpg);
+  background-image: url(../media/top-bar-pattern.jpg);
   color: white;
 
 
@@ -427,7 +427,7 @@ background-size: contain;
   position: relative;
   text-align: center;
   color: white;
-  background: url('media/employee-corner-bg.jpg') no-repeat center center/cover;
+  background: url('../media/employee-corner-bg.jpg') no-repeat center center/cover;
 
 
 }
@@ -544,7 +544,7 @@ button:hover {
 }
 
 .gallery {
-  background-image: url(media/section-2-bg.jpg);
+  background-image: url(../media/section-2-bg.jpg);
   position: relative;
 
   color: white;
@@ -1008,7 +1008,7 @@ background-color: white;
 }
 
 .fig1Top {
-  background-image: url("media/top-bar-pattern.jpg");
+  background-image: url("../media/top-bar-pattern.jpg");
   position: fixed;
   top: 0;
   left: 0;
@@ -1242,7 +1242,7 @@ footer {
 }
 
 .news-cta:hover img {
-    content: url("media/news-cta-active.svg");
+    content: url("../media/news-cta-active.svg");
 }
 .navbar-nav .nav-link {
   display: flex;
