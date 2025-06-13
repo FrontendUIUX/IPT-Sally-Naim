@@ -234,7 +234,7 @@ section.news-welcome {
   margin: 1.4rem;
   border-radius: 0.625rem;
   padding-top: 0;
-
+margin-left: 2rem;
 
 }
 
@@ -385,10 +385,14 @@ background-size: contain;
 .red-text {
   color: red;
 }
-
+@font-face {
+  font-family: 'Akatab-Black';
+  src: url('../fonts/Akatab-Black.ttf') format('truetype');
+}
 .news-header {
    display: flex;
-  background-color: #f4f4f4;
+  background-color: #EEEEEE;
+
   color: black;
   justify-content: space-between;
   align-items: center;
@@ -399,12 +403,15 @@ background-size: contain;
   border-top-right-radius: 0.625rem;
   margin-left: -0.30rem;
   margin-right: -1.25rem;
+
 }
+
 
 .news-header h2,
 .news-header h4 {
   margin-top: 0.9375rem;   
   margin-bottom: 0.9375rem;   
+  font-family: 'dinregular';
 }
 
 .news-header h4 {
@@ -512,7 +519,7 @@ button {
   display: inline-block;
   background-color: #ccf0ff;
   border-radius: 15.625rem !important;
-  margin-top: 2rem;
+  margin-top: 1rem;
   /* Ensure it behaves like a button */
 }
 
@@ -1204,6 +1211,23 @@ margin-top: -3rem;
 @font-face {
   font-family: 'MyFont';
   src: url(../fonts/font.ttf);
+}
+@font-face {
+  
+    font-family: 'dinBold';
+  src: url('../fonts/din-bold.otf') format('opentype');
+}
+@font-face {
+font-family: 'dinmedium';
+  src: url('../fonts/din medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'dinregular';
+  src: url('../fonts/din regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../fonts/lato-regular.ttf') format('truetype');
 }
 .progress-number {
   font-family: 'MyFont';
@@ -2172,15 +2196,18 @@ padding-right: 4rem !important;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 1rem;
+  
 }
 
 .label {
   font-weight: bold;
   width: 80px;
+
 }
 
 .value {
   word-break: break-word;
+font-family: 'lato-regular';
 }
 
 .phone {
@@ -2193,3 +2220,21 @@ padding-right: 4rem !important;
 }
 
 
+@media (min-width: 1808px) {
+  /* Your styles for large screens go here */
+  .hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+
+  z-index: 1;
+  height: 96.3%;
+
+
+}
+
+}
